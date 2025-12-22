@@ -1,0 +1,35 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment
+.env
+.venv
+env/
+ENV/
+
+# Vector Database (don't upload - too large)
+chroma_db/
+
+# Data files (PDFs - don't upload due to size and copyright)
+data/*.pdf
+
+# Include the data folder
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
